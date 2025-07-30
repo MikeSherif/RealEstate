@@ -1,0 +1,32 @@
+:root {
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Основные цвета */
+  --primary-blue: #3B82F6;      /* Основной синий */
+  --primary-purple: #8B5CF6;    /* Основной фиолетовый */
+  --gradient-primary: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+  /* Семантические цвета */
+  --success-green: #10B981;     /* Отличные рейтинги */
+  --warning-amber: #F59E0B;     /* Средние рейтинги */
+  --error-red: #EF4444;         /* Низкие рейтинги, акции */
+  --info-cyan: #06B6D4 ;        /* Информационные блоки */
+
+  /* Нейтральные цвета */
+  --gray-50: #F9FAFB;          /* Фоны секций */
+  --gray-100: #F3F4F6;         /* Карточки */
+  --gray-600: #4B5563;         /* Вторичный текст */
+  --gray-900: #111827;         /* Основной текст */
+  --white: #FFFFFF;            /* Фон контента */
+
+  /* Текст */
+  --font-size-big: 2.25rem;
+
+  --font-size-small: .75rem;
+  --font-weight-bald: 700;
+  --font-weight-medium: 600;
+  --font-weight-light: 400;
+
+  /**/
+  --flex-gap-big: 1rem;
+  --flex-gap-medium: .75rem;
+  --flex-gap-xs: .5rem;
+}
